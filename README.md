@@ -35,11 +35,11 @@ Now only 'sample.json' is in ./json . When main.py runs and loads sample.json, i
 
 |  data you want  |  REST API URL  |
 | ---- | ---- |
-|  all of sample.json  |  https://kanahiro.github.io/gh-pages-rest-api/sample  |
-|  last_update of sample.json  |  https://kanahiro.github.io/gh-pages-rest-api/sample/last_update  |
-|  data[0] of sample.json  |  https://kanahiro.github.io/gh-pages-rest-api/sample/data/0  |
-|  data[1] of sample.json  |  https://kanahiro.github.io/gh-pages-rest-api/sample/data/1  |
-|  data[1]['no'] of sample.json  |  https://kanahiro.github.io/gh-pages-rest-api/sample/data/1/no  |
+|  all of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample  |
+|  last_update of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/last_update  |
+|  data[0] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/0  |
+|  data[1] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/1  |
+|  data[1]['no'] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/1/no  |
 
 ## Usage
 1. Fork this repo
