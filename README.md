@@ -11,21 +11,32 @@ Now sample.json is in ./json and have following structure.
 {
     "data": [
         {
-            "no": "1",
-            "date": "2020-01-28T00:00",
-            "place": "japan",
-            "age": "22",
-            "sex": "female"
-        },
-        {
-            "no": "2",
-            "date": "2020-02-14T00:00",
-            "place": "australia",
-            "age": "50",
-            "sex": "male"
-        }
-    ],
-    "last_update": "2020-03-14T23:14:01.849130+09:00"
+            "no": "0",
+            "name": "札幌店",
+            "location": {
+              "pref_code": "hokkaido",
+              "pref_name": "北海道",
+              "address": "北海道札幌市北区北六条西8-8-11"
+            },
+            "station": [
+              "JR函館本線 さっぽろ",
+              "JR千歳線 さっぽろ"
+            ],
+            "close_day": [
+              "sunday",
+              "holiday"
+            ],
+            "open_day": {
+              "weekday": [
+                "11:00～14:00",
+                "17:00～21:00"
+              ],
+              "saturday": [
+                "11:00～15:00"
+              ]
+            },
+            
+            ・・・・・・
 }
 ```
 
@@ -35,11 +46,10 @@ Now only 'sample.json' is in ./json . When main.py runs and loads sample.json, i
 
 |  data you want  |  REST API URL  |
 | ---- | ---- |
-|  all of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample  |
-|  last_update of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/last_update  |
-|  data[0] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/0  |
-|  data[1] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/1  |
-|  data[1]['no'] of sample.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/sample/data/1/no  |
+|  all of shopinfo.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/shopinfo/  |
+|  data[0] of shopinfo.json  | https://eisukesaito.github.io/ramen-jiro-simple-api/shopinfo/data/0  |
+|  data[1] of shopinfo.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/shopinfo/data/1  |
+|  data[1]['no'] of shopinfo.json  |  https://eisukesaito.github.io/ramen-jiro-simple-api/shopinfo/data/1/no  |
 
 ## Usage
 1. Fork this repo
