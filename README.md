@@ -4,7 +4,7 @@ By analyzing JSON files, the script makes directories and some files.
 User can access datas of JSON file as if REST API server
 
 ## Sample
-Now sample.json is in ./json and have following structure.
+Now shopinfo.json is in ./json and have following structure.
 
 ```json
 
@@ -36,13 +36,13 @@ Now sample.json is in ./json and have following structure.
               ]
             },
             
-            ・・・・・・
+            ・・・
 }
 ```
 
 The script loads JSON files in ./json .
 
-Now only 'sample.json' is in ./json . When main.py runs and loads sample.json, it makes files as you can access like following.
+Now only 'shopinfo.json' is in ./json . When main.py runs and loads shopinfo.json, it makes files as you can access like following.
 
 |  data you want  |  REST API URL  |
 | ---- | ---- |
